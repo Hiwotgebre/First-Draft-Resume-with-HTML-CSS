@@ -1,0 +1,157 @@
+/* .container {
+    height: 100%;
+    border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.a {
+flex-grow: 1;
+    height: 200px;
+    border: 2px solid blue;
+}
+
+.b {
+    width: 200px;
+    border: 2px solid orange;
+    flex-grow: 3;
+    /* height: 100%; 
+
+}
+
+.c {
+    width: 200px;
+    border: 2px solid yellow;
+    /* height: 100%; 
+    flex-grow: 1;
+}
+
+.containerTwo {
+    border: 3px solid green;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+} */
+
+.main-container{
+    height: 100%;
+    width: 1300px;
+    border: 5px solid brown;
+    background-color: black;
+    
+    /* justify-content: space-between; */
+}
+
+.image-wrapper{
+    background-color: #eff7f8;
+    height: 80px;
+    width: 80px;
+    margin: 5px ;
+}
+
+img{
+    
+    object-fit: contain;
+    object-position: 50% 50%;
+    
+}
+
+.section-wrapper{
+    border: 5px solid aqua;
+    width: 1250px;
+    margin: 10px;
+    padding: 10px;
+    /* display: flex;
+    margin: 10px;
+    height: 800px; */
+
+}
+
+.section1{
+    display: flex;
+    margin: 5px;
+    
+}
+
+.Box1 p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #0099ff;
+}
+
+.Box1{
+    border: 5px solid #eff7f8;
+    width: 75%;
+    height: 250px;
+    margin-right: 5px;
+    /* background-color: rgb(89, 7, 243) ; */
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #eff7f8;
+    
+
+}
+
+.Box2{
+    border: 5px solid #e2d3d8;
+    width: 25%;
+    /* background-color: rgb(243, 7, 164); */
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #e2d3d8;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 100;
+    text-align: justify;
+    margin: 5px;
+}
+
+.Box3{
+    border: 5px solid rgba(233, 240, 239, 0.616);
+    width: 800;
+    margin:0px 5px 5px 5px;
+    height: 150px;
+    /* background-color: rgba(8, 150, 27, 0.616); */
+    /* text-align: center; */
+    font-size: 24px;
+    font-weight: bolder;
+    color: rgba(233, 240, 239, 0.616);
+}
+.Box4{
+    border: 5px solid rgb(243, 168, 7);
+    width: 75%;
+    margin-right: 5px;
+    /* background-color: rgb(89, 7, 243) ; */
+    /* text-align: center; */
+    font-size: 24px;
+    font-weight: bolder;
+    color: rgb(243, 168, 7);
+
+}
+
+.Box5{
+    border: 5px solid rgb(239, 243, 7);
+    width: 25%;
+    /* background-color: rgb(243, 7, 164); */
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    color: rgb(239, 243, 7);
+
+}
+.section2-3wrapper{
+    display: flex;
+    margin: 10px;
+    height: 800px;
+}
+h1{
+    color: aqua;
+    background-color: black;
+    font-size: 24px;
+}
+
